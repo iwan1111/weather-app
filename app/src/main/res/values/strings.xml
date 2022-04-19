@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Weather app</string>
+    <string name="logo">Прогноз погоды в вашем городе</string>
+    <string name="hint_user_field">Введите город</string>
+    <string name="main_btn">Узнать погоду</string>
+    <string name="no_user_input">Введите текст</string>
+    <string name="waiting_" tools:ignore="TypographyEllipsis">Ожидайте...</string>
+    <string name="tempt">Температура: </string>
+    <string name="pressure">Давление: </string>
+    <string name="humidity">Влажность: </string>
+    <string name="temp_min">Темп. мин: </string>
+    <string name="temp_max">Темп. макс: </string>
+
+
+</resources>
