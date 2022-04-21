@@ -10,6 +10,7 @@
     <string name="humidity">Влажность: </string>
     <string name="temp_min">Темп. мин: </string>
     <string name="temp_max">Темп. макс: </string>
+    <string name="key">cd8cdc9e12a03708321fb5be0f636471</string>
 
 
 </resources>
