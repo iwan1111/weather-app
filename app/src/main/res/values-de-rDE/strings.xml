@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather app</string>
+    <string name="logo">Wettervorhersage in Ihrer Stadt</string>
+    <string name="hint_user_field">Stadt betreten</string>
+    <string name="main_btn">Nachgucken wie das Wetter wird</string>
+    <string name="no_user_input">Text eingeben</string>
+    <string name="waiting_">Warten…</string>
+    <string name="tempt">Temperatur:</string>
+    <string name="pressure">Druck:</string>
+    <string name="humidity">Feuchtigkeit:</string>
+    <string name="temp_min">Temp. Min:</string>
+    <string name="temp_max">Temp. Max:</string>
+    <string name="main">Hauptsächlich:</string>
+    <string name="visibility">Sichtweite:</string>
+</resources>

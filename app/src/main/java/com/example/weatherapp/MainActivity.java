@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -98,11 +99,18 @@ public class MainActivity extends AppCompatActivity {
             super.onPostExecute(result);
             try {
                 JSONObject jsonObject = new JSONObject(result);
-                result_info.setText(getString(R.string.tempt) + jsonObject.getJSONObject("main").getDouble("temp") + "\n" +
-                        getString(R.string.pressure) + jsonObject.getJSONObject("main").getInt("pressure") +"\n" +
-                        getString(R.string.humidity) + jsonObject.getJSONObject("main").getInt("humidity") +"\n" +
-                        getString(R.string.temp_min) + jsonObject.getJSONObject("main").getDouble("temp_min") +"\n" +
-                        getString(R.string.temp_max) + jsonObject.getJSONObject("main").getDouble("temp_max") +"\n");
+                JSONObject main = jsonObject.getJSONObject("main");
+                JSONObject details = jsonObject.getJSONArray("weather").getJSONObject(0);
+
+                result_info.setText(getString(R.string.tempt) + main.getDouble("temp") + "\n" +
+                        getString(R.string.pressure) + main.getInt("pressure") +"\n" +
+                        getString(R.string.humidity) + main.getInt("humidity") +"\n" +
+                        getString(R.string.temp_min) + main.getDouble("temp_min") +"\n" +
+                        getString(R.string.temp_max) + main.getDouble("temp_max") +"\n" +
+                        getString(R.string.main) + details.getString("main") +"\n" +
+                        getString(R.string.main) + details.getString("description") +"\n" +
+                        getString(R.string.visibility) + jsonObject.getString("visibility") +"\n");
+
             } catch (JSONException e) {
                 e.printStackTrace();
             }

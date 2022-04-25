@@ -5,12 +5,22 @@
     <string name="main_btn">Узнать погоду</string>
     <string name="no_user_input">Введите текст</string>
     <string name="waiting_" tools:ignore="TypographyEllipsis">Ожидайте...</string>
-    <string name="tempt">Температура: </string>
-    <string name="pressure">Давление: </string>
-    <string name="humidity">Влажность: </string>
-    <string name="temp_min">Темп. мин: </string>
-    <string name="temp_max">Темп. макс: </string>
-    <string name="key">cd8cdc9e12a03708321fb5be0f636471</string>
+    <string name="tempt">"Температура: "</string>
+    <string name="pressure">"Давление: "</string>
+    <string name="humidity">"Влажность: "</string>
+    <string name="temp_min">"Темп. мин: "</string>
+    <string name="temp_max">"Темп. макс: "</string>
+    <string name="key" translatable="false">cd8cdc9e12a03708321fb5be0f636471</string>
+    <string name="main">"Основное: "</string>
+    <string name="visibility">"Видимость: "</string>
 
+    <string name="weather_sunny" translatable="false">&#xf00d;</string>
+    <string name="weather_clear_night" translatable="false">&#xf02e;</string>
+    <string name="weather_foggy" translatable="false">&#xf014;</string>
+    <string name="weather_cloudy" translatable="false">&#xf013;</string>
+    <string name="weather_rainy" translatable="false">&#xf019;</string>
+    <string name="weather_snowy" translatable="false">&#xf01b;</string>
+    <string name="weather_thunder" translatable="false">&#xf01e;</string>
+    <string name="weather_drizzle" translatable="false">&#xf01c;</string>
 
 </resources>

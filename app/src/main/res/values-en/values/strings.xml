@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Weather app</string>
+    <string name="logo">Прогноз погоды в вашем городе</string>
+    <string name="hint_user_field">Введите город</string>
+    <string name="main_btn">Узнать погоду</string>
+    <string name="no_user_input">Введите текст</string>
+    <string name="waiting_">Ожидайте...</string>
+    <string name="tempt">"Температура: "</string>
+    <string name="pressure">"Давление: "</string>
+    <string name="humidity">"Влажность: "</string>
+    <string name="temp_min">"Темп. мин: "</string>
+    <string name="temp_max">"Темп. макс: "</string>
+    <string name="key">cd8cdc9e12a03708321fb5be0f636471</string>
+    <string name="main">"Основное: "</string>
+    <string name="visibility">"Видимость: "</string>
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+</resources>
