@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather app</string>
+    <string name="logo">Прогноз погоди у вашому місті</string>
+    <string name="hint_user_field">Введіть місто</string>
+    <string name="no_user_input">Введіть текст</string>
+    <string name="waiting_">Чекайте…</string>
+    <string name="tempt">Температура:</string>
+    <string name="pressure">Тиск:</string>
+    <string name="humidity">Вологість:</string>
+    <string name="temp_min">"Темп. мин: "</string>
+    <string name="temp_max">"Темп. макс: "</string>
+    <string name="main">Основне:</string>
+    <string name="visibility">Видимість:</string>
+    <string name="main_btn">Дізнатись погоду</string>
+</resources>

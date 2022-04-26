@@ -1,15 +1,9 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">Weather app</string>
-    <string name="logo">Прогноз погоды в вашем городе</string>
-    <string name="hint_user_field">Введите город</string>
-    <string name="main_btn">Узнать погоду</string>
-    <string name="no_user_input">Введите текст</string>
-    <string name="waiting_" tools:ignore="TypographyEllipsis">Ожидайте...</string>
-    <string name="tempt">"Температура: "</string>
-    <string name="pressure">"Давление: "</string>
-    <string name="humidity">"Влажность: "</string>
-    <string name="temp_min">"Темп. мин: "</string>
-    <string name="temp_max">"Темп. макс: "</string>
+    <string name="pressure">Pressure:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="temp_min">"Temp. min: "</string>
+    <string name="temp_max">"Temp. max: "</string>
     <string name="key" translatable="false">cd8cdc9e12a03708321fb5be0f636471</string>
     <string name="main">"Основное: "</string>
     <string name="visibility">"Видимость: "</string>
@@ -22,5 +16,11 @@
     <string name="weather_snowy" translatable="false">&#xf01b;</string>
     <string name="weather_thunder" translatable="false">&#xf01e;</string>
     <string name="weather_drizzle" translatable="false">&#xf01c;</string>
+    <string name="logo">Weather forecast in your city</string>
+    <string name="hint_user_field">Enter city</string>
+    <string name="main_btn">Check the weather</string>
+    <string name="no_user_input">Enter text</string>
+    <string name="waiting_">Wait…</string>
+    <string name="tempt">Temperature:</string>
 
 </resources>
