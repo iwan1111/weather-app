@@ -11,6 +11,6 @@
     <string name="humidity">"Влажность: "</string>
     <string name="temp_min">"Темп. мин: "</string>
     <string name="temp_max">"Темп. макс: "</string>
-    <string name="main">Main:</string>
-    <string name="visibility">Visibility:</string>
+    <string name="main">"Основное: "</string>
+    <string name="visibility">"Видимость: "</string>
 </resources>
